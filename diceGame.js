@@ -73,7 +73,7 @@ function identifyWinner(side) {
 
 function updateDiceImage(side, diceNumber) {
     const diceImage = document.getElementById(side);
-    diceImage.src = `D://Dice Game//dice${diceNumber}.png`; 
+    diceImage.src = `dice${diceNumber}.png`; 
     diceImage.style.display = 'block'; // Mostrar la imagen
 }
 
